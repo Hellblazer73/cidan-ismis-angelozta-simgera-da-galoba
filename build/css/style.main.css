@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  margin: 0 auto; }
+  @media (max-width: 767px) {
+    .container {
+      width: 100%; } }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px; } }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px; } }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px; } }
+
+a {
+  text-decoration: none; }
+
+header {
+  margin-bottom: 100px; }
+  @media screen and (max-width: 500px) {
+    header {
+      margin-bottom: 50px; } }
+  header nav {
+    display: flex;
+    justify-content: space-between; }
+    @media screen and (max-width: 767px) {
+      header nav {
+        justify-content: space-around; } }
+    @media screen and (max-width: 500px) {
+      header nav {
+        flex-direction: column; } }
+    header nav .logo {
+      padding-top: 15px;
+      color: #000;
+      font-family: Inconsolata;
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 24px;
+      text-transform: uppercase; }
+      @media screen and (min-width: 1600px) {
+        header nav .logo {
+          font-size: 50px; } }
+      @media screen and (max-width: 500px) {
+        header nav .logo {
+          text-align: center; } }
+    header nav .main-nav li {
+      padding: 15px;
+      display: inline-block; }
+      @media screen and (max-width: 500px) {
+        header nav .main-nav li {
+          display: block;
+          text-align: center; }
+          header nav .main-nav li:hover {
+            background-color: rgba(240, 240, 240, 0.5); } }
+      header nav .main-nav li a {
+        color: #626262;
+        font-family: "Playfair Display";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-transform: uppercase;
+        text-decoration: none; }
+        @media screen and (min-width: 1600px) {
+          header nav .main-nav li a {
+            font-size: 24px; } }
+        @media screen and (max-width: 767px) {
+          header nav .main-nav li a {
+            font-size: 12px; } }
+  header .billboard {
+    width: 100%; }
+    header .billboard img {
+      width: 100%; }
+
+main .wrapper {
+  margin: 0 auto;
+  width: 90%; }
+  main .wrapper .blog,
+  main .wrapper .arcticle {
+    margin-bottom: 135px;
+    color: #b4ad9e;
+    font-family: Ubuntu;
+    font-size: 10px;
+    font-weight: 300;
+    text-transform: uppercase; }
+    @media screen and (min-width: 1600px) {
+      main .wrapper .blog,
+      main .wrapper .arcticle {
+        font-size: 20px; } }
+    @media screen and (max-width: 500px) {
+      main .wrapper .blog,
+      main .wrapper .arcticle {
+        margin-bottom: 70px; } }
+    main .wrapper .blog h4,
+    main .wrapper .arcticle h4 {
+      margin: 28px 0 34px 0;
+      color: #626262;
+      font-family: "Playfair Display";
+      font-size: 30px;
+      font-weight: 400; }
+      @media screen and (min-width: 1600px) {
+        main .wrapper .blog h4,
+        main .wrapper .arcticle h4 {
+          font-size: 40px; } }
+    main .wrapper .blog p,
+    main .wrapper .arcticle p {
+      margin-bottom: 52px;
+      color: #626262;
+      font-family: "Playfair Display";
+      font-size: 11px;
+      font-weight: 400;
+      line-height: 24px;
+      text-transform: none; }
+      @media screen and (min-width: 1600px) {
+        main .wrapper .blog p,
+        main .wrapper .arcticle p {
+          font-size: 25px;
+          line-height: 38px; } }
+    main .wrapper .blog a,
+    main .wrapper .arcticle a {
+      color: #b4ad9e;
+      font-family: Ubuntu;
+      font-size: 14px;
+      font-weight: 300;
+      text-transform: uppercase; }
+      @media screen and (min-width: 1600px) {
+        main .wrapper .blog a,
+        main .wrapper .arcticle a {
+          font-size: 20px; } }
+  main .wrapper .post {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    main .wrapper .post .arcticle {
+      margin-bottom: 0;
+      width: 45%; }
+      @media screen and (max-width: 767px) {
+        main .wrapper .post .arcticle {
+          width: 100%; } }
+      main .wrapper .post .arcticle img {
+        margin-bottom: 30px;
+        width: 100%; }
+      main .wrapper .post .arcticle h4 {
+        font-size: 20px; }
+        @media screen and (min-width: 1600px) {
+          main .wrapper .post .arcticle h4 {
+            font-size: 30px; } }
+
+main .sign-up {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  height: 287px; }
+  main .sign-up label {
+    color: #333;
+    font-family: "Playfair Display";
+    font-size: 30px;
+    font-weight: 400; }
+    @media screen and (min-width: 1600px) {
+      main .sign-up label {
+        font-size: 40px; } }
+    @media screen and (max-width: 767px) {
+      main .sign-up label {
+        font-size: 25px; } }
+  main .sign-up .send-email {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    border-bottom: 1px solid #000; }
+    main .sign-up .send-email input {
+      width: 90%;
+      background-color: transparent;
+      border: 0;
+      color: #626262;
+      font-family: "Playfair Display";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px; }
+      @media screen and (min-width: 1600px) {
+        main .sign-up .send-email input {
+          font-size: 24px; } }
+    main .sign-up .send-email button {
+      width: 10%;
+      height: 17px;
+      background-image: url("../img/send-icon.png");
+      background-repeat: no-repeat;
+      background-color: transparent;
+      border: 0; }

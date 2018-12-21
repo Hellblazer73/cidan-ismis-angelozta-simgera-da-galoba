@@ -1,0 +1,125 @@
+main {
+    .wrapper {
+        margin: 0 auto;
+        width: 90%;
+        .blog,
+        .arcticle {
+            margin-bottom: 135px;
+            color: #b4ad9e;
+            font-family: Ubuntu;
+            font-size: 10px;
+            font-weight: 300;
+            text-transform: uppercase;
+            @media screen and (min-width: 1600px) {
+                font-size: 20px;
+            }
+            @media screen and (max-width: 500px) {
+                margin-bottom: 70px;
+            }
+            h4 {
+                margin: 28px 0 34px 0;
+                color: #626262;
+                font-family: "Playfair Display";
+                font-size: 30px;
+                font-weight: 400;
+                @media screen and (min-width: 1600px) {
+                    font-size: 40px;
+                }
+            }
+            p {
+                margin-bottom: 52px;
+                color: #626262;
+                font-family: "Playfair Display";
+                font-size: 11px;
+                font-weight: 400;
+                line-height: 24px;
+                text-transform: none;
+                @media screen and (min-width: 1600px) {
+                    font-size: 25px;
+                    line-height: 38px;
+                }
+            }
+            a {
+                color: #b4ad9e;
+                font-family: Ubuntu;
+                font-size: 14px;
+                font-weight: 300;
+                text-transform: uppercase;
+                @media screen and (min-width: 1600px) {
+                    font-size: 20px;
+                }
+            }
+        }
+        .post {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .arcticle {
+                @media screen and (max-width: 767px) {
+                    width: 100%;
+                }
+                margin-bottom: 0;
+                width: 45%;
+                img {
+                    margin-bottom: 30px;
+                    width: 100%;
+                }
+                h4 {
+                    font-size: 20px;
+                    @media screen and (min-width: 1600px) {
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+    .sign-up {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0f0f0;
+        height: 287px;
+        label {
+            color: #333;
+            font-family: "Playfair Display";
+            font-size: 30px;
+            font-weight: 400;
+            @media screen and (min-width: 1600px) {
+                font-size: 40px;
+            }
+            @media screen and (max-width: 767px) {
+                font-size: 25px;
+            }
+        }
+        .send-email {
+            display: flex;
+            flex-direction: row;
+            margin-top: 80px;
+            border-bottom: 1px solid #000;
+            input {
+                width: 90%;
+                background-color: transparent;
+                border: 0;
+                color: #626262;
+                font-family: "Playfair Display";
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+                @media screen and (min-width: 1600px) {
+                    font-size: 24px;
+                }
+            }
+            button {
+                width: 10%;
+                height: 17px;
+                background-image: url('../img/send-icon.png');
+                background-repeat: no-repeat;
+                background-color: transparent;
+                border: 0;
+            }
+        }
+    }
+}
